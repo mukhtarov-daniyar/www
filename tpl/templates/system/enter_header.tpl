@@ -1,0 +1,1 @@
+<? $thisXcode = getFullXCodeByPageId($CFG->pid); ?>

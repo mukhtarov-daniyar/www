@@ -1,0 +1,17 @@
+﻿<?php
+
+$SYS_ADMIN_MENU_VERSION = "1.0";
+$SYS_ADMIN_MENU_ACL = 2;
+$menu = array();
+
+$menu[] = array($CFG->Locale["system_tools"], "#");
+$menu[] = array($CFG->Locale["system_settings"], "options3.php", "", $CFG->Locale["system_optionsSite"]);
+$menu[] = array($CFG->Locale["system_users"], "users.php", "", $CFG->Locale["system_usersList"]);
+$menu[] = array('Города', "city.php", "city.php",'');
+
+if ($CFG->MULTILANG != 0)
+	$menu[] = array($CFG->Locale["system_languages"], "langs.php", "", $CFG->Locale["system_languagesOfContent"]);
+
+$menu[] = array($CFG->Locale["CMS_sys_FileManager"], "javascript:sf('df')", "", "");
+
+?>

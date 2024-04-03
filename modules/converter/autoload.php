@@ -1,0 +1,16 @@
+<?php
+	require_once('lib/ApiClient.php');
+	require_once('lib/ApiException.php');
+	require_once('lib/Configuration.php');
+	require_once('lib/ConversionApi.php');
+	require_once('lib/InformationApi.php');
+	require_once('lib/InputApi.php');
+	require_once('lib/JobsApi.php');
+	require_once('lib/OutputApi.php');
+	require_once('lib/models/Conversion.php');
+	require_once('lib/models/Error.php');
+	require_once('lib/models/InputFile.php');
+	require_once('lib/models/Job.php');
+	require_once('lib/models/OutputFile.php');
+	require_once('lib/models/Status.php');
+	require_once('lib/models/Thread.php');

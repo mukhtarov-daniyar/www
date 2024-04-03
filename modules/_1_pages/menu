@@ -1,0 +1,12 @@
+﻿<?php
+
+$SYS_ADMIN_MENU_VERSION = "1.0";
+$SYS_ADMIN_MENU_ACL = 1;
+$menu = array();
+
+$menu[] = array($CFG->Locale["system_content"], "#");
+$menu[] = array($CFG->Locale["system_pages"], "pages.php", "", $CFG->Locale["system_pages_tree"]);
+$menu[] = array($CFG->Locale["newstr"], "main.php?mod=_1_pages&part=pages&act=edit&setCat=1", "", $CFG->Locale["system_pages_tree"]);
+
+
+?>

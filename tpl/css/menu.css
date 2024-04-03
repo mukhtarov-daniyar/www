@@ -1,0 +1,112 @@
+/* header {  width:100%; min-width:1280px !important; height:110px; z-index:10; background-color:#FFF; font-family: 'segoe'; font-size:100%; position:relative; text-transform:uppercase;} 
+header .container { width:1280px;}
+header .container .row-fluid { width:100%; margin:0; max-width:1280px;}
+
+@media screen and (min-width:100px) and (max-width:1367px) {
+
+.content { width:1024px !important;}
+
+}
+
+header .container .row-fluid  .lang { margin-top:30px;  display:inline-block; margin-left:10px}
+header .container .row-fluid  .lang .offset2 { margin-bottom:5px;}
+header .container .row-fluid  .lang .offset2 a{ font-size:14px; }
+header .container .row-fluid .offset2 a.act { text-decoration:underline}
+
+header .container .row-fluid div.span2 { width:150px; text-align:center; margin:0; margin-left:50px; margin-right:40px; float:left}
+header .container .row-fluid div.span2 a { background:  no-repeat center 10px url('/tpl/img/logo-min.png'); padding-top:75px; background-size:40%}
+
+
+header .container .row-fluid div.span1 { width:140px; margin:0; height:110px; text-align:center; float:left}
+header .container .row-fluid a { display:block; font-size:90%}
+
+header .container .row-fluid div.span1:hover { background:#03BFDB;}
+header .container .row-fluid div.span1:hover > a { color:#fff}
+
+header .container .row-fluid div.span1 a{ padding-top:73px}
+header .container .row-fluid div.span1.act {background: #03BFDB;}
+
+header .container .row-fluid div.span1 a.ps_1 {background: no-repeat center 25px url('/tpl/img/icon_menu/1.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_1 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/1_1.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_1 {background: no-repeat center 25px url('/tpl/img/icon_menu/1_1.png'); background-size:30%}
+
+
+header .container .row-fluid div.span1 a.ps_2 {background: no-repeat center 25px url('/tpl/img/icon_menu/2.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_2 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/2_2.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_2 {background: no-repeat center 25px url('/tpl/img/icon_menu/2_2.png'); background-size:30%}
+
+header .container .row-fluid div.span1 a.ps_3 {background: no-repeat center 25px url('/tpl/img/icon_menu/3.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_3 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/3_3.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_3 {background: no-repeat center 25px url('/tpl/img/icon_menu/3_3.png'); background-size:30%}
+
+header .container .row-fluid div.span1 a.ps_4 {background: no-repeat center 25px url('/tpl/img/icon_menu/4.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_4 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/4_4.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_4 {background: no-repeat center 25px url('/tpl/img/icon_menu/4_4.png'); background-size:30%}
+
+header .container .row-fluid div.span1 a.ps_5 {background: no-repeat center 25px url('/tpl/img/icon_menu/5.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_5 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/5_5.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_5 {background: no-repeat center 25px url('/tpl/img/icon_menu/5_5.png'); background-size:30%}
+
+header .container .row-fluid div.span1 a.ps_6 {background: no-repeat center 25px url('/tpl/img/icon_menu/6.png'); background-size:30%}
+header .container .row-fluid div.span1.act a.ps_6 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/6_6.png'); background-size:30%}
+header .container .row-fluid div.span1:hover a.ps_6 {background: no-repeat center 25px url('/tpl/img/icon_menu/6_6.png'); background-size:30%}
+
+header .container .row-fluid div.span1.bmp_7 { margin-left:10px;}
+header .container .row-fluid div.span1  a.ps_7{ padding-top:73px; background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka.png'); background-size:24%;}
+header .container .row-fluid div.span1.act a.ps_7 {padding-top:73px; background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka_1.png'); background-size:24%; color:#FFF}
+header .container .row-fluid div.span1:hover a.ps_7 {background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka_1.png'); background-size:24%; }
+
+
+
+
+
+header.info {background-color:#03BFDB;}
+header.info .container .row-fluid div.span1:hover { background:#F6F8FA;}
+header.info .container .row-fluid div.span1:hover > a { color:#000}
+
+header.info .container .row-fluid div.span1.act {background: #F6F8FA;}
+header.info .container .row-fluid div.span1.act a { color:#000 !important}
+header.info .container .row-fluid a { color:#fff}
+
+header.info  .container .row-fluid div.span2 a { background:  no-repeat center 10px url('/tpl/img/logo-min_1.png'); padding-top:75px; background-size:40%}
+
+header.info .container .row-fluid div.span1 a.ps_1 {background: no-repeat center 25px url('/tpl/img/icon_menu/1_1.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_1 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/1.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_1 {background: no-repeat center 25px url('/tpl/img/icon_menu/1.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1 a.ps_2 {background: no-repeat center 25px url('/tpl/img/icon_menu/2_2.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_2 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/2.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_2 {background: no-repeat center 25px url('/tpl/img/icon_menu/2.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1 a.ps_3 {background: no-repeat center 25px url('/tpl/img/icon_menu/3_3.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_3 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/3.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_3 {background: no-repeat center 25px url('/tpl/img/icon_menu/3.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1 a.ps_4 {background: no-repeat center 25px url('/tpl/img/icon_menu/4_4.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_4 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/4.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_4 {background: no-repeat center 25px url('/tpl/img/icon_menu/4.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1 a.ps_5 {background: no-repeat center 25px url('/tpl/img/icon_menu/5_5.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_5 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/5.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_5 {background: no-repeat center 25px url('/tpl/img/icon_menu/5.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1 a.ps_6 {background: no-repeat center 25px url('/tpl/img/icon_menu/6_6.png'); background-size:30%}
+header.info .container .row-fluid div.span1.act a.ps_6 { color:#FFF; background: no-repeat center 25px url('/tpl/img/icon_menu/6.png'); background-size:30%}
+header.info .container .row-fluid div.span1:hover a.ps_6 {background: no-repeat center 25px url('/tpl/img/icon_menu/6.png'); background-size:30%}
+
+header.info .container .row-fluid div.span1.bmp_7 { margin-left:10px;}
+header.info .container .row-fluid div.span1  a.ps_7{ padding-top:73px; background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka_1.png'); background-size:24%;}
+header.info .container .row-fluid div.span1.act a.ps_7 {padding-top:73px; background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka.png'); background-size:24%; color:#FFF}
+header.info .container .row-fluid div.span1:hover a.ps_7 {background: no-repeat center 30px url('/tpl/img/icon_menu/zayavka.png'); background-size:24%; }
+
+
+@media screen and (min-width:100px) and (max-width:1367px) {
+
+.content { width:1024px !important;}
+header .container .row-fluid div.span1 { width:110px; }
+header { padding-left:0px;}
+header .container { width:1024px;}
+header .container .row-fluid div.span2 { width:120px;}
+header .container .row-fluid  .lang { margin-left:5px}
+}
+*/

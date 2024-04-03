@@ -1,0 +1,56 @@
+SecRuleEngine Off 
+php_value suhosin.simulation On
+php_value suhosin.request.array_index_blacklist '"+<>;()"'
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.3333.led\.ru$ [NC]
+RewriteCond %{REQUEST_URI} !^/robots.*
+RewriteRule ^(.*)$ https://3333.led.ru/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule .* index.php [L]
+
+ErrorDocument 404 /404.php
+
+#ErrorDocument 404 /index.php?sys=404
+
+#php_value zend.ze1_compatibility_mode On
+
+
+#php_value session.use_trans_sid 0
+#php_value session.use_cookies 1
+#php_value session.use_only_cookies 1
+
+#php_value register_globals 0
+
+#php_value output_handler ob_gzhandler
+
+#php_value max_execution_time  999999999
+#php_value max_input_time  600
+
+#php_value error_reporting 0
+#php_value error_reporting 65535
+
+php_flag magic_quotes_gpc Off
+php_flag magic_quotes_runtime = Off
+
+Options -Indexes
+
+SetEnvIf Request_URI ^/static/ noauth=1
+
+AuthType Basic 
+AuthName "Dostup k base" 
+AuthUserFile "/home/p3443/3333/.htpasswd"
+
+Order Deny,Allow
+Satisfy any
+Deny from all
+Require valid-user
+Allow from env=noauth
